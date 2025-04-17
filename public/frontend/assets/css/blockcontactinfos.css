@@ -1,0 +1,313 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/** CHECKOUT BY STEP */
+/*  
+ * LAYOUT VARIABLES 
+ */
+/* mini basket */
+#cart {
+  position: relative;
+}
+#cart h4 {
+  color: black;
+  font-weight: normal;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+#cart .content {
+  clear: both;
+  display: block;
+  position: absolute;
+  top: 100%;
+  right: 17px;
+  left: auto;
+  padding: 15px;
+  min-height: 100px;
+  height: 100px;
+  height: auto !important;
+  background: white;
+  border: 1px solid #ebebeb;
+  z-index: 99999;
+  min-width: 400px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  display: none;
+}
+#cart.active .content {
+  display: block;
+}
+#cart .heading {
+  min-width: 200px;
+  padding-left: 0;
+}
+#cart .heading:before,
+#cart .heading:after {
+  content: " ";
+  display: table;
+}
+#cart .heading:after {
+  clear: both;
+}
+.rtl #cart .heading {
+  padding-right: 0;
+  padding-left: inherit;
+}
+#cart .heading .cart-inner {
+  min-height: 47px;
+  height: 47px;
+  height: auto !important;
+  text-align: left;
+}
+.rtl #cart .heading .cart-inner {
+  text-align: right;
+}
+#cart .heading a {
+  margin-top: 1px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+}
+#cart .heading a span {
+  font-size: 10px;
+}
+#cart .heading .title-cart {
+  background: url(../img/cart.html) no-repeat scroll center center #d54e58;
+  width: 35px;
+  height: 35px;
+  border-color: #d54e58;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+#cart .checkout {
+  text-align: right;
+  clear: both;
+}
+#cart .empty {
+  padding-top: 20px;
+  text-align: center;
+}
+#cart .mini-cart-total {
+  text-align: right;
+}
+#cart .mini-cart-total td {
+  color: #000;
+  padding: 4px;
+}
+#cart .mini-cart-total table {
+  border-collapse: collapse;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin-bottom: 5px;
+}
+#cart .mini-cart-info .quantity {
+  text-align: right;
+}
+#cart .mini-cart-info .name {
+  font-size: 10px;
+  font-weight: bold;
+}
+#cart .mini-cart-info .name small {
+  color: #666;
+}
+#cart .mini-cart-info td {
+  color: #000;
+  vertical-align: top;
+  padding: 6px;
+  border-bottom: 1px solid #ebebeb;
+}
+#cart .mini-cart-info table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 5px;
+}
+#cart .mini-cart-info .image {
+  width: 1px;
+}
+#cart .mini-cart-info .image img {
+  text-align: left;
+}
+#cart .mini-cart-info .remove {
+  text-align: right;
+}
+#cart .mini-cart-info .remove img {
+  cursor: pointer;
+}
+#cart .mini-cart-info td.total {
+  text-align: right;
+}
+
+.custhtmlcarosel {
+  position: relative;
+}
+.custhtmlcarosel .carousel-control {
+  top: inherit;
+  bottom: 15px;
+  left: 50%;
+  width: 20px;
+  line-height: 15px;
+  height: 20px;
+  border: 1px solid #ebebeb;
+  text-shadow: none;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  color: #ccc;
+}
+.rtl .custhtmlcarosel .carousel-control {
+  right: 50%;
+  left: auto;
+}
+.custhtmlcarosel .carousel-control.left {
+  margin-right: inherit;
+  margin-left: -25px;
+}
+.rtl .custhtmlcarosel .carousel-control.left {
+  margin-left: inherit;
+  margin-right: inherit;
+}
+.rtl .custhtmlcarosel .carousel-control.left {
+  margin-right: -25px;
+  margin-left: inherit;
+}
+.custhtmlcarosel .carousel-control.right {
+  margin-left: inherit;
+  margin-right: -25px;
+}
+.rtl .custhtmlcarosel .carousel-control.right {
+  margin-right: inherit;
+  margin-left: inherit;
+}
+.rtl .custhtmlcarosel .carousel-control.right {
+  margin-left: -25px;
+  margin-right: inherit;
+}
+.custhtmlcarosel .carousel-control:hover {
+  background: #47af99;
+  color: white;
+}
+
+.detail_sticker {
+  background: white;
+  overflow: hidden;
+  padding: 10px;
+}
+.detail_sticker .text_sticker {
+  position: relative;
+  padding: 0 18px 0 65px;
+}
+.rtl .detail_sticker .text_sticker {
+  padding: 0 65px 0 18px;
+}
+.detail_sticker .text_sticker:before {
+  background: url("../img/before-img.html") no-repeat scroll 0 0 transparent;
+  content: "";
+  display: block;
+  height: 61px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 65px;
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -o-transform: rotate(0);
+}
+.rtl .detail_sticker .text_sticker:before {
+  right: 0;
+  left: auto;
+}
+.rtl .detail_sticker .text_sticker:before {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+.detail_sticker .text_sticker:after {
+  content: "";
+  background: url("../img/after-img.html") no-repeat scroll 0 0 transparent;
+  display: block;
+  height: 61px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 18px;
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -o-transform: rotate(0);
+}
+.rtl .detail_sticker .text_sticker:after {
+  left: 0;
+  right: auto;
+}
+.rtl .detail_sticker .text_sticker:after {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+.detail_sticker .img_sticker img {
+  float: left;
+  margin: 0 10px;
+}
+.rtl .detail_sticker .img_sticker img {
+  float: right;
+}
+
+#block_contact_infos span.icon {
+  background: black;
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+  color: white;
+  line-height: 25px;
+  font-size: 13px;
+  text-align: center;
+}
+.rtl #block_contact_infos span.icon {
+  margin-left: 5px;
+  margin-right: inherit;
+}
+#block_contact_infos span.icon:hover {
+  background: #47af99;
+  -webkit-transition: border-radius 1s;
+  transition: border-radius 1s;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}

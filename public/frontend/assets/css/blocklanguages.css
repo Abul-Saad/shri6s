@@ -1,0 +1,33 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/** CHECKOUT BY STEP */
+/*  
+ * LAYOUT VARIABLES 
+ */
+.languages-block .dropdown-toggle {
+  display: none;
+}
+.languages-block .links li {
+  text-transform: capitalize;
+}
+.languages-block .links li.selected {
+  color: #47af99;
+}
+.languages-block .links li.selected a {
+  color: #47af99;
+}
